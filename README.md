@@ -1,5 +1,6 @@
 <div align="center">
  <h1 align="center">  An eCommerce Furniture Web Application</h3>
+ <img src="https://github.com/Austine247-droid/airbnb-clone-project/blob/main/Homepage.png?raw=true">
 <div>
      <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
      <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />

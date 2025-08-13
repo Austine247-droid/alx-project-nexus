@@ -31,15 +31,17 @@ const products = [
 ]
 
 interface SinglePageProps {
-  params: { slug: string }
+  params: {
+    slug: string
+  }
 }
-export default async function SinglePage({ params }: SinglePageProps) {
+
+export default function Page({ params }: SinglePageProps) {
   const product = products.find(p => p.slug === params.slug)
 
   if (!product) {
     return <p>No product is found</p>
   }
-
   return (
     <div className="px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative flex flex-col lg:flex-row gap-16">
       {/* IMG */}

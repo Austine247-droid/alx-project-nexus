@@ -48,7 +48,7 @@ const products = [
     price: 59.99,
     slug: 'sports-watch',
     mainImage: 'https://i.pinimg.com/1200x/81/96/43/8196431117538b3c8539c22e1c1d157e.jpg',
-    secondImage: 'https://i.pinimg.com/1200x/5b/be/c8/5bbec8f38c7a49b659cf028316ce2818.jpg',
+    secondImage: 'https://i.pinimg.com/1200x/20/29/d5/2029d51d3f51b028d6f0d4b7bab3c44d.jpg',
 
     description: 'Water-resistant watch with a modern sporty look.',
   },
@@ -58,7 +58,7 @@ const products = [
     price: 89.99,
     slug: 'WireLess Earbuds',
     mainImage: 'https://i.pinimg.com/736x/25/b9/83/25b9831c748b9af40ba25b98725b8d0b.jpg',
-    secondImage: 'https://i.pinimg.com/736x/26/5c/dd/265cdda32e494abb2c7ba41901c27f5d.jpg',
+    secondImage: 'https://i.pinimg.com/1200x/45/ce/1e/45ce1e464404cf3ef1c19ea4cb971ff4.jpg',
 
     description: 'High-quality earbuds with noise cancellation.',
   },
@@ -68,7 +68,7 @@ const products = [
     price: 24.99,
     slug: 'yoga-mat',
     mainImage: 'https://i.pinimg.com/736x/83/c5/4a/83c54a63a72144c8c99304f2b92864d4.jpg',
-    secondImage: 'https://i.pinimg.com/736x/26/5c/dd/265cdda32e494abb2c7ba41901c27f5d.jpg',
+    secondImage: 'https://i.pinimg.com/1200x/37/e7/bd/37e7bdf4f5fb9e6c7f20d82d618f25f2.jpg',
 
     description: 'Non-slip yoga mat for all types of exercises.',
   },
@@ -78,7 +78,7 @@ const products = [
     price: 14.99,
     slug: 'travel-mug',
     mainImage: 'https://i.pinimg.com/1200x/34/aa/bc/34aabc11d644e6ae446c645f49810fe0.jpg',
-    secondImage: 'https://i.pinimg.com/736x/26/5c/dd/265cdda32e494abb2c7ba41901c27f5d.jpg',
+    secondImage: 'https://i.pinimg.com/1200x/a8/42/60/a8426080b0674837cfb21691473f2b70.jpg',
 
     description: 'Insulated mug to keep your drinks hot or cold.',
   },
@@ -88,7 +88,7 @@ const products = [
     price: 44.99,
     slug: 'bluetooth-speaker',
     mainImage: 'https://i.pinimg.com/736x/25/b9/83/25b9831c748b9af40ba25b98725b8d0b.jpg',
-    secondImage: 'https://i.pinimg.com/736x/26/5c/dd/265cdda32e494abb2c7ba41901c27f5d.jpg',
+    secondImage: 'https://i.pinimg.com/1200x/3b/65/04/3b65042b9ca350c1128bde0ebb3a1b11.jpg',
 
     description: 'Portable speaker with rich, clear sound.',
   },
@@ -98,7 +98,7 @@ const products = [
     price: 69.99,
     slug: 'denim-jacket',
     mainImage: 'https://i.pinimg.com/736x/25/b9/83/25b9831c748b9af40ba25b98725b8d0b.jpg',
-    secondImage: 'https://i.pinimg.com/736x/26/5c/dd/265cdda32e494abb2c7ba41901c27f5d.jpg',
+    secondImage: 'https://i.pinimg.com/1200x/7a/cd/74/7acd74d18d922be139b401dff7fb96cb.jpg',
 
     description: 'Classic denim jacket for casual and trendy looks.',
   },
@@ -134,7 +134,7 @@ const ProductList = () => {
             <span className="font-semibold">${product.price}</span>
           </div>
           <div className="text-sm text-gray-500">{product.description}</div>
-          <button className="rounded-2xl ring-1 ring-lama text-lama w-max py-2 px-4 text-xs hover:bg-lama hover:text-white">
+          <button className="rounded-2xl ring-1 ring-lama text-lama w-max py-2 px-4 text-xs hover:bg-black hover:text-white cursor-pointer">
             Add to Cart
           </button>
         </Link>

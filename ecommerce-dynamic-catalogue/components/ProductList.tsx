@@ -28,7 +28,7 @@ const products = [
     price: 19.99,
     slug: 'classic-tshirt',
     mainImage: 'https://i.pinimg.com/1200x/f6/71/2b/f6712bb54bc9ef5318009c2727896da8.jpg',
-    secondImage: 'https://i.pinimg.com/736x/26/5c/dd/265cdda32e494abb2c7ba41901c27f5d.jpg',
+    secondImage: 'https://i.pinimg.com/1200x/65/f1/12/65f1129d80982f1aaa21ec9105aa191e.jpg',
 
     description: 'Soft cotton t-shirt with a timeless design.',
   },
@@ -38,7 +38,7 @@ const products = [
     price: 29.99,
     slug: 'Leather Wallet',
     mainImage: 'https://i.pinimg.com/736x/02/7e/33/027e33c3f16816cf1422b9cb2e102b7c.jpg',
-    secondImage: 'https://i.pinimg.com/736x/26/5c/dd/265cdda32e494abb2c7ba41901c27f5d.jpg',
+    secondImage: 'https://i.pinimg.com/736x/c4/c4/7b/c4c47b6f8cded2add6220e466708a799.jpg',
 
     description: 'Slim and durable wallet made from genuine leather.',
   },
@@ -48,7 +48,7 @@ const products = [
     price: 59.99,
     slug: 'sports-watch',
     mainImage: 'https://i.pinimg.com/1200x/81/96/43/8196431117538b3c8539c22e1c1d157e.jpg',
-    secondImage: 'https://i.pinimg.com/736x/26/5c/dd/265cdda32e494abb2c7ba41901c27f5d.jpg',
+    secondImage: 'https://i.pinimg.com/1200x/5b/be/c8/5bbec8f38c7a49b659cf028316ce2818.jpg',
 
     description: 'Water-resistant watch with a modern sporty look.',
   },
